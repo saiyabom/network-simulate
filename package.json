@@ -1,0 +1,31 @@
+{
+  "name": "network-simulate",
+  "version": "1.0.0",
+  "description": "Electron with ReactJS(Redux) development",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "ReactJS",
+    "Typescript"
+  ],
+  "author": "Siriphong Rattananoraset",
+  "license": "",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "electron": "~1.6.2",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "lite-server": "^2.2.2",
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3"
+  }
+}
